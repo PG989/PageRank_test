@@ -1,4 +1,4 @@
-PageRank <- function(pdb = ""){
+PageRank <- function(file, ...){
   #install.packages('igraph')
   #library(igraph)
   
@@ -13,7 +13,7 @@ PageRank <- function(pdb = ""){
   #     as.matrix %>%
   #     set_colnames("page.rank")
     
-    
+    pdb <- fromJSON(file
     message = paste(pdb[1,1])
     
 }
