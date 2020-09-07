@@ -1,4 +1,4 @@
-hello <- function(pdb){
+hello <- function(pdb=""){
   #install.packages('igraph')
   #library(igraph)
   
