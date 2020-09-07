@@ -14,6 +14,6 @@ PageRankGit <- function(file, ...){
   #     set_colnames("page.rank")
   
   pdb <- fromJSON(file)
-  return(paste(pdb[1,1]))
+  return(toJSON(paste(pdb[1,1])))
                   
 }
