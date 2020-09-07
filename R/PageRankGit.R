@@ -1,6 +1,7 @@
 PageRankGit <- function(file, ...){
   #install.packages('igraph')
   #library(igraph)
+  install.packages("jsonlite")
   library(jsonlite)
   # pdb <- fromJSON(jsonInput)
   # g <- pdb[, "Package"] %>%
