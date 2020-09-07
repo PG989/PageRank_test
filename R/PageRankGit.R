@@ -14,7 +14,7 @@ PageRankGit <- function(file, ...){
   #     as.matrix %>%
   #     set_colnames("page.rank")
   
-  pdb <- fromJSON(file)
+  pdb <- jsonlite::fromJSON(file)
   return(toJSON(paste(pdb[1,1])))
                   
 }
