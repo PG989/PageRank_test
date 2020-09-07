@@ -1,7 +1,7 @@
 PageRankGit <- function(file, ...){
   #install.packages('igraph')
   #library(igraph)
-  
+  library(jsonlite)
   # pdb <- fromJSON(jsonInput)
   # g <- pdb[, "Package"] %>%
   #   makeDepGraph(availPkgs = pdb, suggests=FALSE, enhances=TRUE, includeBasePkgs = FALSE)
