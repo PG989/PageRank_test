@@ -1,4 +1,4 @@
-hello <- function(file, ...){
+PageRankGit <- function(file, ...){
   #install.packages('igraph')
   #library(igraph)
   
@@ -12,8 +12,8 @@ hello <- function(file, ...){
   #     sort(decreasing = TRUE) %>%
   #     as.matrix %>%
   #     set_colnames("page.rank")
-    
-    pdb <- fromJSON(file)
-    message = paste(pdb[1,1])
-    
+  
+  pdb <- fromJSON(file)
+  return(paste(pdb[1,1]))
+                  
 }
