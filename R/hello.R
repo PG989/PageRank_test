@@ -1,14 +1,19 @@
-#' Hello World
-#' 
-#' Basic hello world function to be called from the demo app
-#' 
-#' @export
-#' @param myname your name. Required.
-hello <- function(myname = ""){
-  if(myname == ""){
-    stop("Tell me your name!")
-  }
-  list(
-    message = paste("hello", myname, "! This is", R.Version()$version.string)
-  )
+PageRank <- function(pdb = ""){
+  #install.packages('igraph')
+  #library(igraph)
+  
+  # pdb <- fromJSON(jsonInput)
+  # g <- pdb[, "Package"] %>%
+  #   makeDepGraph(availPkgs = pdb, suggests=FALSE, enhances=TRUE, includeBasePkgs = FALSE)
+  #   
+  #   pr <- g %>%
+  #     page.rank(directed = FALSE) %>%
+  #     use_series("vector") %>%
+  #     sort(decreasing = TRUE) %>%
+  #     as.matrix %>%
+  #     set_colnames("page.rank")
+    
+    
+    message = paste(pdb[1,1])
+    
 }
