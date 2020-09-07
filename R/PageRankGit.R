@@ -1,4 +1,4 @@
-PageRank <- function(file, ...){
+PageRankGit <- function(file, ...){
   #install.packages('igraph')
   #library(igraph)
   
